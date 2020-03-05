@@ -1,0 +1,255 @@
+:root {
+    --base: #495e72;
+    --contrast: #ffe4c4;
+    --secondary: #fbf4e8;
+    --gradient: linear-gradient(0deg, #EDF2F6 0%, #ffffff 100%);
+    --custom_font: ;
+}
+
+
+/*
+var(--base)
+var(--contrast)
+var(--secondary)
+var(--gradient)
+var(--custom_font)
+*/
+
+body {
+    padding-top: 54px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--base);
+}
+
+a:hover {
+    color: var(--base);
+    text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 500px;
+    background: no-repeat top center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.carousel-item h3 {
+    text-shadow: 0px 3px 6px rgba(108, 107, 107, 0.55);
+    font-size: 3rem;
+}
+
+.carousel-item p {
+    text-shadow: 0px 3px 6px rgba(108, 107, 107, 0.55);
+    font-size: 2rem;
+}
+
+.navbar {
+    /*
+  background-image: -moz-linear-gradient( 90deg, rgb(99,119,170) 0%, rgb(83,103,149) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(99,119,170) 0%, rgb(83,103,149) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(99,119,170) 0%, rgb(83,103,149) 100%); 
+*/
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.navbar-brand span {
+    color: bisque;
+}
+
+.nav-item a {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.bg-dark {
+    background-color: var(--base)!important;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
+.block-title {
+    margin-bottom: 25px;
+    color: var(--base);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.card-title {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: var(--base);
+    border: 0;
+}
+
+.btn-secondary:hover {
+    color: var(--contrast);
+    background-color: var(--base);
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 10px 35px;
+    border-radius: .2rem;
+}
+
+.about-section {
+    background-color: var(--secondary);
+    padding: 30px 0;
+}
+
+.about-section img {
+    box-shadow: 0px 11px 28px 2px rgba(75, 75, 75, 0.43);
+}
+
+ul.list-styled{
+    list-style-image: url(../img/tick.png);
+    background-size: 10px;
+    margin: 20px 0;
+}
+
+ul.list-styled li{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+.about-section h4 {
+    font-size: 1.3rem;
+    color: #9f9f9f;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--base);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--base);
+    border-color: var(--base);
+}
+
+.btn-primary:hover {
+    color: var(--contrast);
+    background-color: var(--base);
+    border-color: var(--base);
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus {
+    box-shadow: none;
+}
+
+.dropdown-toggle::after {
+    border-top: .2em solid;
+    border-right: .2em solid transparent;
+    border-left: .2em solid transparent;
+}
+
+.card:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.navbar-exterior {
+    margin-bottom: 20px;
+}
+
+.content-wrap {
+    margin-top: 40px
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1.1rem;
+}
+
+.breadcrumb {
+    background-color: var(--secondary);
+}
+
+.footer-zwebra {
+    background-image: url(../img/zwebra-wh.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 100px;
+    text-align: right;
+    padding-right: 110px;
+    line-height: 1.2;
+    font-size: 14px;
+    opacity: .5;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.footer-zwebra:hover {
+    opacity: .8;    
+}
+
+.footer-zwebra a {
+    color: var(--contrast);
+}
+
+.footer-zwebra a:hover {
+    text-decoration: none;
+}
+
+.img-comment{
+    width: 50px;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: var(--base);
+    border-color: var(--base);
+}
+
+.bg-primary {
+    background-color: var(--base)!important;
+}
