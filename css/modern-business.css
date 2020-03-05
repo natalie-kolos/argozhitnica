@@ -1,9 +1,8 @@
 :root {
-    --base: #495e72;
-    --contrast: #ffe4c4;
+    --base: #05A2EB;
+    --contrast: #FFCD01;
     --secondary: #fbf4e8;
-    --gradient: linear-gradient(0deg, #EDF2F6 0%, #ffffff 100%);
-    --custom_font: ;
+    --gradient: linear-gradient(0deg, #EDF2F6 0%, #ffffff 100%);    
 }
 
 
@@ -17,7 +16,7 @@ var(--custom_font)
 
 body {
     padding-top: 54px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat';
     font-size: 1.2rem;
 }
 
@@ -79,7 +78,7 @@ a:hover {
 }
 
 .nav-item a {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
@@ -111,7 +110,7 @@ header {
 
 .btn-secondary {
     color: #fff;
-    background-color: var(--base);
+    background-color: var(--contrast);
     border: 0;
 }
 
@@ -210,6 +209,7 @@ h6 {
 
 .breadcrumb {
     background-color: var(--secondary);
+        margin-bottom: 32px;
 }
 
 .footer-zwebra {
@@ -232,7 +232,7 @@ h6 {
 }
 
 .footer-zwebra a {
-    color: var(--contrast);
+    color: #fff;
 }
 
 .footer-zwebra a:hover {
@@ -252,4 +252,8 @@ h6 {
 
 .bg-primary {
     background-color: var(--base)!important;
+}
+
+.youtube img{
+    width: 32px;
 }
